@@ -34,6 +34,7 @@ export const updateTeamById = (id, updateTeam) => {
   return team;
 };
 
+
 export const deleteTeam = (id) => {
   const index = teams.findIndex((team) => team.id === id);
   if (index == -1) return false;
