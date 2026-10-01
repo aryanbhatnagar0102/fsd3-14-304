@@ -17,3 +17,22 @@
    d. select variant as javascript from arrow key
    e. select esList for linting from arrow key
    f. select install and start the frontend
+
+## Object destructure
+1. a. const {rating, bname, price, quantity, picUrl } = props.book;
+   b. does not depends on order, if property is not available then it initialize with null.
+2. Any components includes style
+   a. External CSS - Create class in index.css and use in components.
+   b. Create property as object like 
+   '''
+   const qtyStyle = {
+    fontSize: "1rem",
+    color:"blue",
+    textAlign:"center",
+    backgroumdColor:"yellow",
+    padding: "10px",
+   };
+   '''
+   then apply that style attribute and pass the object
+   c. In thi smethod we use two curly method with style attribute, all the CSS property must be single word. 
+      For ex- text-align becomes textAlign.
