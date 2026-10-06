@@ -36,3 +36,6 @@
    then apply that style attribute and pass the object
    c. In thi smethod we use two curly method with style attribute, all the CSS property must be single word. 
       For ex- text-align becomes textAlign.
+3. rfce gives react default function
+4. rafc gives arrow function
+5. App.jsx should have minimun code
